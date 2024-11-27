@@ -1,0 +1,50 @@
+/* Estilização do corpo da página */
+body {
+    background-color: #1D4221; /* Cor de fundo verde escuro */
+    color: white; /* Cor do texto branco */
+    font-family: "Bai Jamjuree", sans-serif; /* Fonte personalizada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima de 100% da tela */
+    margin: 0;
+}
+
+/* Estilização do botão */
+button {
+    background-color: #64A712; /* Cor de fundo verde claro */
+    color: white; /* Cor do texto branco */
+    font-family: "Bai Jamjuree", sans-serif; /* Fonte personalizada */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #579610; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilização das seções ocultas e ativas */
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+/* Estilização do conteúdo principal */
+main {
+    text-align: center; /* Centraliza o texto */
+    max-width: 600px; /* Limita a largura máxima */
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+/* Estilização das imagens */
+img {
+    max-width: 90%; /* Limita a largura máxima a 90% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px 0;
+}
